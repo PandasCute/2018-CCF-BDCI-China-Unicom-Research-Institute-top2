@@ -45,8 +45,10 @@
 |former_complaint_num|交费金历史投诉总量|	NUMBER	|单位：次|
 |former_complaint_fee|	历史执行补救费用交费金额	|NUMBER	|单位：分|
         
-1.**配置环境与依赖库**  
+**1.配置环境与依赖库**  
   - python3
   - scikit-learn
   - gensim
-
+  - windows环境 内存16G （需linux环境自行更改）            
+**2.运行代码步骤说明**    
+ - 
