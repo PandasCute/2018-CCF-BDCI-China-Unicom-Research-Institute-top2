@@ -44,3 +44,9 @@
 |complaint_level	|投诉重要性|	VARCHAR2(1000)	|1：普通，2：重要，3：重大|
 |former_complaint_num|交费金历史投诉总量|	NUMBER	|单位：次|
 |former_complaint_fee|	历史执行补救费用交费金额	|NUMBER	|单位：分|
+        
+1.**配置环境与依赖库**  
+  - python3
+  - scikit-learn
+  - gensim
+
