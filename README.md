@@ -12,14 +12,14 @@
 百度云分享数据集我将复赛训练集和测试集分别命名为：train_2.csv,test_2.csv 
 
 **数据说明**  
- | 字段        | 中文名    |  数据类型  |  说明       |
+
 
 | 字段     | 中文名| 数据类型|  说明 |
 |:-------:|:-------:|:-------:|:-------:|
 |USERID|	用户ID|	VARCHAR2(50)|	用户编码，标识用户的唯一字段|
-|current_type	套餐	VARCHAR2(500)	/|
-|service_type	套餐类型	VARCHAR2(10)	0：23G融合，1：2I2C，2：2G，3：3G，4：4G|
-|is_mix_service	是否固移融合套餐	VARCHAR2(10)	1.是 0.否|
+|current_type|	套餐	|VARCHAR2(500)	|/|
+|service_type	|套餐类型	|VARCHAR2(10)	|0：23G融合，1：2I2C，2：2G，3：3G，4：4G|
+|is_mix_service	|是否固移融合套餐|	VARCHAR2(10)|	1.是 0.否|
 |online_time	|在网时长|	VARCHAR2(50)	|/|
 |1_total_fee|	当月总出账金额_月	|NUMBER|	单位：元|
 |2_total_fee	|当月前1月总出账金额_月|	NUMBER	|单位：元|
