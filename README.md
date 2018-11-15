@@ -60,7 +60,9 @@
         其中原始特征包括：origin_num_feature原始数值特征，原始类别特征origin_cate_feature      
         features = base_features+cont_features+diff_features+w2v_features+stacking_features     
  - **count特征**  
- -- ['1_total_fee','2_total_fee','3_total_fee','4_total_fee','former_complaint_fee','pay_num','contract_time','last_month_traffic','online_time']列的count        
+single_features=['1_total_fee','2_total_fee','3_total_fee','4_total_fee','former_complaint_fee','pay_num'
+,'contract_time','last_month_traffic','online_time']列的计数特征      
+single_features 与 ['service_type', 'contract_type'] 其中类别的交叉计数特征         
  
  - **差值特征**
  - **w2v 特征**
