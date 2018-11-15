@@ -56,6 +56,9 @@
  - 再运行 baseline-4.py 生成最终结果     
  
 **3.特征工程** 
- - **count特征**
+        我们特征工程所有特征命名为列features:包括原始特征，差值特征，W2V特征和stacking_features特征。         
+        其中原始特征包括：origin_num_feature原始数值特征，
+        features = base_features+cont_features+diff_features+w2v_features+stacking_features
+ - **count特征**:
  - **差值特征**
  - **w2v 特征**
