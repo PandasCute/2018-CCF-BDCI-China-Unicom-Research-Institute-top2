@@ -49,7 +49,8 @@
   - python3
   - scikit-learn
   - gensim
-  - windows环境 内存16G （需linux环境自行更改）            
+  - windows环境 内存16G （需linux环境自行更改）      
+
 **2.运行代码步骤说明**    
  - 先运行 w2v-3.py 相关路径说明在代码中有详细解释 
  - 再运行 baseline-4.py 生成最终结果
