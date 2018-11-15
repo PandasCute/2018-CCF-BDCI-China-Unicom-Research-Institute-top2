@@ -5,7 +5,7 @@
 
 赛道链接：https://www.datafountain.cn/competitions/311/details/data-evaluation       
 **赛程时间**：*2018.08.28-2018.11.11*  
-**参与人**:[郭达雅](https://github.com/guoday)       
+**参与人**:[郭达雅](https://github.com/guoday)、[林有夕](https://github.com/infturing) 、[小兔子乖乖](https://github.com/PandasCute) 
 为避免数据丢失，提供数据集下载地址：链接：https://pan.baidu.com/s/1ow6PLYVvBKfvXwbT88jw5Q 提取码：5hwq     
 
 **数据集解释**：官方下载数据集命名可能不一样
