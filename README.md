@@ -52,8 +52,7 @@
   - windows环境 内存16G （需linux环境自行更改）      
 
 ## 3.运行代码步骤说明    
- - 先运行 w2v-3.py 相关路径说明在代码中有详细解释 
- - 再运行 baseline-4.py 生成最终结果     
+ - sh run.sh     
  
 ## 4.特征工程      
         我们特征工程所有特征命名为列**features**:包括原始特征，差值特征，W2V特征和stacking_features特征。         
