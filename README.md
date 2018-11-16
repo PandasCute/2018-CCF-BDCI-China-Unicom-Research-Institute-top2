@@ -59,15 +59,17 @@
         我们特征工程所有特征命名为列**features**:包括原始特征，差值特征，W2V特征和stacking_features特征。         
         其中原始特征包括：origin_num_feature原始数值特征，原始类别特征origin_cate_feature      
         features = base_features+cont_features+diff_features+w2v_features+stacking_features     
- :four: **count特征**  
+ :four: **统计特征**  
+ :heavy_exclamation_mark: 对应函数**cont_features**           
+ 对每个月话费，流量，上网时间等进行计数统计
 single_features=['1_total_fee','2_total_fee','3_total_fee','4_total_fee','former_complaint_fee','pay_num'
 ,'contract_time','last_month_traffic','online_time']列的计数特征      
 single_features 与 ['service_type', 'contract_type'] 其中类别的交叉计数特征         
  
  :five: **差值特征**     
- diff_total_fee_1-2-3 代表1到4月total_fee相邻之间的差值    
+ diff_total_fee_1-2-3 代表1到4月费用相邻之间的差值    
  pay_num 与1_total_fee的差值
-'month_traffic'与 'last_month_traffic'的差值：这里将小于0的都设为0
+'month_traffic'与 'last_month_traffic'的差值：这里将小于0的都设为0    
 :cat:'rest_traffic_ratio'
  
  :six: **w2v 特征**
