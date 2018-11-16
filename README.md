@@ -61,7 +61,7 @@
         features = base_features+cont_features+diff_features+w2v_features+stacking_features    
         函数里面的传入参数True是表示train和test里面没有做该函数的的特征，False表示已经完成，无需再次预处理
  - **原始特征**     
- 对应函数 pre_data  
+ 对应函数 **pre_data**  
  -  **统计特征**    
  对应函数**cont_features**           
  每个月话费，流量，上网时间等进行计数统计
