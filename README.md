@@ -6,7 +6,8 @@
 **赛道链接**：https://www.datafountain.cn/competitions/311/details/data-evaluation       
 **赛程时间**：*2018.08.28-2018.11.11*  
 **参与人**:[郭大](https://github.com/guoday)、[林有夕](https://github.com/infturing) 、[小兔子乖乖](https://github.com/PandasCute)      
-**百度云盘下载链接**:为避免数据丢失，提供数据集下载地址链接：https://pan.baidu.com/s/1ow6PLYVvBKfvXwbT88jw5Q 提取码：5hwq     
+**百度云盘下载链接**:为避免数据丢失，提供数据集下载地址链接：https://pan.baidu.com/s/1RoGBAknW7O_AfS-x6CSHWA 提取码：bgk2       
+   
 
 **数据集解释**：官方下载数据集命名可能不一样    
 百度云分享数据集我将初赛训练集和测试集分别命名为：train_all.csv,test_1.csv   
