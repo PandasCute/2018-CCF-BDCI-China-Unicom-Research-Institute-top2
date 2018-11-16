@@ -77,5 +77,5 @@
   对应函数**w2v_feature**   
 - **stcking特征**         
   对应函数**stacking_feature**      
-**4.模型训练**      
-**5.更多细节请提前关注[小兔子乖乖知乎](https://zhuanlan.zhihu.com/c_1045985931114438656)**     
+**5.模型训练**      
+**6.更多细节请提前关注[小兔子乖乖知乎](https://zhuanlan.zhihu.com/c_1045985931114438656)**     
