@@ -59,7 +59,7 @@
         我们特征工程所有特征命名为列**features**:包括原始特征，差值特征，W2V特征和stacking_features特征。         
         其中原始特征包括：origin_num_feature原始数值特征，原始类别特征origin_cate_feature      
         features = base_features+cont_features+diff_features+w2v_features+stacking_features     
- :four: **统计特征**  
+ -  **统计特征**  
  :heavy_exclamation_mark: 对应函数**cont_features**           
  对每个月话费，流量，上网时间等进行计数统计
 single_features=['1_total_fee','2_total_fee','3_total_fee','4_total_fee','former_complaint_fee','pay_num'
