@@ -60,18 +60,18 @@
         features = base_features+cont_features+diff_features+w2v_features+stacking_features    
         函数里面的传入参数True是表示train和test里面没有做该函数的的特征，False表示已经完成，无需再次预处理
  - **原始特征**     
- 对应函数 **pre_data**  
+ 对应函数 **origin_cate_feature和origin_num_feature**  
  -  **统计特征**    
- 对应函数**cont_features**           
+ 对应函数**feature_count**           
  每个月话费，流量，上网时间等进行计数统计
  每个月话费，流量，上网时间等分别与套餐类型、合约类型交叉统计特征                
- 
+ 其他：当月话费占当月话费占比         
+      各同类型流量话费等比例 等 
  - **差值特征**     
-   对应函数**diff_features**
+   对应特征列**diff_feature_list**
    1到4月费用相邻之间的差值         
    当月流量费用占当月费用的占比       
-   当月话费占当月话费占比  
-   各同类型流量话费等比例  
+
  **w2v 特征**    
   对应函数**w2v_feature**   
 - **stcking特征**         
