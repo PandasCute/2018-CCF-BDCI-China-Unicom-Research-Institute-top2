@@ -59,17 +59,21 @@
         我们特征工程所有特征命名为列**features**:包括原始特征，差值特征，W2V特征和stacking_features特征。         
         其中原始特征包括：origin_num_feature原始数值特征，原始类别特征origin_cate_feature      
         features = base_features+cont_features+diff_features+w2v_features+stacking_features    
- - **原始特征**
+        函数里面的传入参数True是表示train和test里面没有做该函数的的特征，False表示已经完成，无需再次预处理
+ - **原始特征**     
  对应函数 pre_data  
  -  **统计特征**    
- :heavy_exclamation_mark: 对应函数**cont_features**           
+ 对应函数**cont_features**           
  每个月话费，流量，上网时间等进行计数统计
  每个月话费，流量，上网时间等分别与套餐类型、合约类型交叉统计特征                
  
  - **差值特征**     
+   对应函数**diff_features**
    1到4月费用相邻之间的差值         
    当月流量费用占当月费用的占比       
    当月话费占当月话费占比  
    各同类型流量话费等比例  
-- **w2v 特征**
-- **stcking特征** 
+- **w2v 特征**    
+  对应函数**w2v_feature**   
+- **stcking特征**         
+  对应函数**stacking_feature**   
