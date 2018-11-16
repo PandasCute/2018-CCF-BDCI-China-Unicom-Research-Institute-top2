@@ -45,17 +45,17 @@
 |former_complaint_num|交费金历史投诉总量|	NUMBER	|单位：次|
 |former_complaint_fee|	历史执行补救费用交费金额	|NUMBER	|单位：分|
         
- **2.配置环境与依赖库**  
+## 2.配置环境与依赖库**  
   - python3
   - scikit-learn
   - gensim
   - windows环境 内存16G （需linux环境自行更改）      
 
- **3.运行代码步骤说明**    
+## 3.运行代码步骤说明**    
  - 先运行 w2v-3.py 相关路径说明在代码中有详细解释 
  - 再运行 baseline-4.py 生成最终结果     
  
-**4.特征工程**      
+## 4.特征工程**      
         我们特征工程所有特征命名为列**features**:包括原始特征，差值特征，W2V特征和stacking_features特征。         
         其中原始特征包括：origin_num_feature原始数值特征，原始类别特征origin_cate_feature      
         features = base_features+cont_features+diff_features+w2v_features+stacking_features    
@@ -73,10 +73,10 @@
    当月流量费用占当月费用的占比       
    当月话费占当月话费占比  
    各同类型流量话费等比例  
-- **w2v 特征**    
+ **w2v 特征**    
   对应函数**w2v_feature**   
 - **stcking特征**         
   对应函数**stacking_feature**      
 ## 5.模型训练 
  最终成绩：线上复赛B：0.738       
- **6.更多细节请提前关注[小兔子乖乖知乎](https://zhuanlan.zhihu.com/c_1045985931114438656)**     
+## 6.更多细节请提前关注[小兔子乖乖知乎](https://zhuanlan.zhihu.com/c_1045985931114438656)**     
