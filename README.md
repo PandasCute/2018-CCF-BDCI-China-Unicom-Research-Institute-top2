@@ -80,7 +80,7 @@
 
  - **w2v 特征**    
   对应函数**w2v_feature**   
-- **stcking特征**         
+- **stacking特征**         
   对应函数**stacking_feature**      
 ## 5.模型训练   
  最终成绩：线上复赛B：0.838       
