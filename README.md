@@ -68,6 +68,6 @@ single_features 与 ['service_type', 'contract_type'] 其中类别的交叉计�
  diff_total_fee_1-2-3 代表1到4月total_fee相邻之间的差值    
  pay_num 与1_total_fee的差值
 'month_traffic'与 'last_month_traffic'的差值：这里将小于0的都设为0
-cat:'rest_traffic_ratio'
+dog:'rest_traffic_ratio'
  
  - **w2v 特征**
