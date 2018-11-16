@@ -50,7 +50,7 @@
   - python3
   - scikit-learn
   - gensim
-  - windows环境 内存16G （需linux环境自行更改）      
+  - Ubuntu      
 
 ## 3.运行代码步骤说明           
  - path 根据各自所需路径自行修改
