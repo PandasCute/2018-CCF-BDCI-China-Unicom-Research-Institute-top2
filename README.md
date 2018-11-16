@@ -61,15 +61,12 @@
         features = base_features+cont_features+diff_features+w2v_features+stacking_features     
  -  **统计特征**  
  :heavy_exclamation_mark: 对应函数**cont_features**           
- 对每个月话费，流量，上网时间等进行计数统计
-single_features=['1_total_fee','2_total_fee','3_total_fee','4_total_fee','former_complaint_fee','pay_num'
-,'contract_time','last_month_traffic','online_time']列的计数特征      
-single_features 与 ['service_type', 'contract_type'] 其中类别的交叉计数特征         
+ 每个月话费，流量，上网时间等进行计数统计
+ 每个月话费，流量，上网时间等分别与套餐类型、合约类型交叉统计特征                
  
- :five: **差值特征**     
- diff_total_fee_1-2-3 代表1到4月费用相邻之间的差值    
- pay_num 与1_total_fee的差值
-'month_traffic'与 'last_month_traffic'的差值：这里将小于0的都设为0    
-:cat:'rest_traffic_ratio'
- 
+ - **差值特征**     
+   1到4月费用相邻之间的差值         
+   当月流量费用占当月费用的占比       
+   当月话费占当月话费占比  
+   各同类型流量话费等比例  
  :six: **w2v 特征**
