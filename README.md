@@ -54,7 +54,13 @@
 
 ## 3.运行代码步骤说明           
  - path 根据各自所需路径自行修改
- - sh run.sh     
+ - sh run.sh  
+ > #!/usr/bin/env bash         
+> python ./src/w2v_feature.py       
+> python ./src/stacking_model.py    
+> python ./src/w2v_feature.py    
+> python ./src/model.py       
+ 运行两次 w2v_feature.py是为了 增大差异  
  
 ## 4.特征工程      
         我们特征工程所有特征命名为列**features**:包括原始特征，差值特征，W2V特征和stacking_features特征。         
@@ -78,10 +84,5 @@
 - **stcking特征**         
   对应函数**stacking_feature**      
 ## 5.模型训练   
-> #!/usr/bin/env bash
-> python ./src/w2v_feature.py
-python ./src/stacking_model.py
-python ./src/w2v_feature.py
-python ./src/model.py
  最终成绩：线上复赛B：0.738左右       
 ## 6.更多细节请提前关注[小兔子乖乖知乎](https://zhuanlan.zhihu.com/c_1045985931114438656)    
