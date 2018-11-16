@@ -77,6 +77,11 @@
   对应函数**w2v_feature**   
 - **stcking特征**         
   对应函数**stacking_feature**      
-## 5.模型训练 
+## 5.模型训练   
+> #!/usr/bin/env bash
+> python ./src/w2v_feature.py
+python ./src/stacking_model.py
+python ./src/w2v_feature.py
+python ./src/model.py
  最终成绩：线上复赛B：0.738左右       
 ## 6.更多细节请提前关注[小兔子乖乖知乎](https://zhuanlan.zhihu.com/c_1045985931114438656)    
