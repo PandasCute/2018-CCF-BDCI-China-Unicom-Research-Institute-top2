@@ -45,7 +45,7 @@
 |former_complaint_num|交费金历史投诉总量|	NUMBER	|单位：次|
 |former_complaint_fee|	历史执行补救费用交费金额	|NUMBER	|单位：分|
         
-：one：**配置环境与依赖库**  
+:one：**配置环境与依赖库**  
   - python3
   - scikit-learn
   - gensim
