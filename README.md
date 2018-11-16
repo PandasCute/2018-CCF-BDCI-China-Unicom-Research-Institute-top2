@@ -51,15 +51,15 @@
   - gensim
   - windows环境 内存16G （需linux环境自行更改）      
 
-**2.运行代码步骤说明**    
+ :two: **运行代码步骤说明**    
  - 先运行 w2v-3.py 相关路径说明在代码中有详细解释 
  - 再运行 baseline-4.py 生成最终结果     
  
-**3.特征工程**      
+ :three: **特征工程**      
         我们特征工程所有特征命名为列**features**:包括原始特征，差值特征，W2V特征和stacking_features特征。         
         其中原始特征包括：origin_num_feature原始数值特征，原始类别特征origin_cate_feature      
         features = base_features+cont_features+diff_features+w2v_features+stacking_features     
- - **count特征**  
+ :four: **count特征**  
 single_features=['1_total_fee','2_total_fee','3_total_fee','4_total_fee','former_complaint_fee','pay_num'
 ,'contract_time','last_month_traffic','online_time']列的计数特征      
 single_features 与 ['service_type', 'contract_type'] 其中类别的交叉计数特征         
