@@ -66,7 +66,6 @@
         我们特征工程所有特征命名为列**features**:包括原始特征，差值特征，W2V特征和stacking_features特征。         
         其中原始特征包括：origin_num_feature原始数值特征，原始类别特征origin_cate_feature      
         features = base_features+cont_features+diff_features+w2v_features+stacking_features    
-        函数里面的传入参数True是表示train和test里面没有做该函数的的特征，False表示已经完成，无需再次预处理
  - **原始特征**     
  对应函数 **origin_cate_feature和origin_num_feature**  
  -  **统计特征**    
