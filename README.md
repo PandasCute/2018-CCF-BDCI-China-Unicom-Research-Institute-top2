@@ -12,7 +12,7 @@
 百度云分享数据集我将初赛训练集和测试集分别命名为：train_1.csv,test_1.csv   
 百度云分享数据集我将复赛训练集和测试集分别命名为：train_2.csv,test_2.csv 
 
-**数据说明**  
+**1.数据说明**  
 
 
 | 字段     | 中文名| 数据类型|  说明 |
@@ -45,17 +45,17 @@
 |former_complaint_num|交费金历史投诉总量|	NUMBER	|单位：次|
 |former_complaint_fee|	历史执行补救费用交费金额	|NUMBER	|单位：分|
         
- :one: **配置环境与依赖库**  
+ **2.配置环境与依赖库**  
   - python3
   - scikit-learn
   - gensim
   - windows环境 内存16G （需linux环境自行更改）      
 
- :two: **运行代码步骤说明**    
+ **3.运行代码步骤说明**    
  - 先运行 w2v-3.py 相关路径说明在代码中有详细解释 
  - 再运行 baseline-4.py 生成最终结果     
  
- :three: **特征工程**      
+**4.特征工程**      
         我们特征工程所有特征命名为列**features**:包括原始特征，差值特征，W2V特征和stacking_features特征。         
         其中原始特征包括：origin_num_feature原始数值特征，原始类别特征origin_cate_feature      
         features = base_features+cont_features+diff_features+w2v_features+stacking_features    
